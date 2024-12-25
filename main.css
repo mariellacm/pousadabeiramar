@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .cabeçalho {
+        padding: 16px 0;
+        background-color: #04133c;
+        color: gold;
+        text-align: center;   
+    }
+
+    .cabeçalho nav li {
+        display: inline;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    nav li a {
+            color: wheat;
+            text-decoration: none;
+        }
+
+        .cabeçalho h1
+        {
+            font-family: "Tangerine", serif;
+                font-weight: normal;
+                font-size: 80px;
+        }
+
+        .cabeçalho h2
+        {
+            font-family: "Tangerine", serif;
+                font-weight: normal;
+                font-size: 50px;
+                margin-bottom: 30px;
+        }
+
+        .cabeçalho nav
+        {
+            font-family: "Delius", serif;
+                font-weight: normal;
+                font-size: 20px;
+        }
+
+        body, input, textarea {
+            font-family: "Delius", serif;
+            color: #04133c;
+        }
+        
+        .container {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .container,
+        section .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px;
+        }
+
+        .container h2 {
+            font-family: "Tangerine", serif;
+            font-size: 40px;
+            padding: 20px;
+            color: #04133c;;
+        }
+            
+            .imagenssite {
+                height: 350px;
+            }
+
+            section .container {
+                align-items:center
+            }
+            
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.reserv {
+    background-color: #04133c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.reserv h2 {
+    color: gold;
+    font-family: "Tangerine", serif;
+    font-size: 80px;
+    text-align: center;
+    margin-left: 350px;
+    font-weight: none;
+}
+
+.reserv label {
+    color: wheat;
+    font-family: "Delius", serif;
+}
+
+form input,
+form textarea,
+form button {
+display: block;
+width: 320px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+            form textarea {
+                resize: none;
+                height: 180px;
+            }
+            
+            footer {
+                background-color: #04133c;
+                color: wheat;
+            }
+
+            .social-links li {
+                display: inline;
+                margin-right: 16px;
+                }
+                
+                .social-links li a{
+                    text-decoration: none;
+                }
+
+                .social-links img {
+                    height: 30px;
+                }
+                
